@@ -34,9 +34,10 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-primary-900 p-2 rounded-lg">
-              <Zap className="h-6 w-6 text-accent-500" />
-            </div>
+            {/*<div className="bg-primary-900 p-2 rounded-lg">*/}
+            {/*  <Zap className="h-6 w-6 text-accent-500" />*/}
+            {/*</div>*/}
+            <img src="/logo.png" alt="Tamiti Tech Logo" className="h-10" />
             <span className="text-xl font-poppins font-bold text-primary-900">
               Tamiti
             </span>

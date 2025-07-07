@@ -10,9 +10,10 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="bg-accent-500 p-2 rounded-lg">
-                <Zap className="h-6 w-6 text-primary-900" />
-              </div>
+              {/*<div className="bg-accent-500 p-2 rounded-lg">*/}
+              {/*  <Zap className="h-6 w-6 text-primary-900" />*/}
+              {/*</div>*/}
+              <img src="/logo-y.png" alt="Alternative Tamiti Tech Logo" className="h-10 w-10"/>
               <span className="text-xl font-poppins font-bold">Tamiti</span>
             </div>
             <p className="text-neutral-300 text-sm leading-relaxed">
@@ -23,13 +24,13 @@ const Footer = () => {
               <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
+              <a href="https://x.com/tamititech" className="text-neutral-300 hover:text-accent-500 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
               <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
+              <a href="https://www.instagram.com/tamititech/" className="text-neutral-300 hover:text-accent-500 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
