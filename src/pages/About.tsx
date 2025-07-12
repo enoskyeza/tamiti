@@ -216,7 +216,8 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <img 
-                src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400"
+                // src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src='/team/herman.jpeg'
                 alt="Team member" 
                 className="w-32 h-32 rounded-full object-cover mx-auto mb-4"
               />
@@ -225,7 +226,8 @@ const About = () => {
             </div>
             <div className="text-center">
               <img 
-                src="https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=400"
+                // src="https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src="/team/peter.jpeg"
                 alt="Team member" 
                 className="w-32 h-32 rounded-full object-cover mx-auto mb-4"
               />
