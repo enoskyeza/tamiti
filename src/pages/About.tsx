@@ -16,7 +16,7 @@ const About = () => {
     {
       year: "2024",
       title: "Expanding Horizons", 
-      description: "Became the go-to digital partner for SMEs across Uganda, with 100+ successful projects completed."
+      description: "Becoming the go-to digital partner for SMEs across Uganda, with 100+ successful projects completed."
     },
     {
       year: "2025",
