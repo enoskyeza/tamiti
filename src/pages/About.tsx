@@ -215,11 +215,17 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <img 
-                // src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400"
-                src='/team/herman.jpeg'
-                alt="Team member" 
-                className="w-32 h-32 rounded-full object-cover mx-auto mb-4"
+              {/*<img */}
+              {/*  // src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400"*/}
+              {/*  src='/team/herman.jpeg'*/}
+              {/*  alt="Team member" */}
+              {/*  className="w-32 h-32 rounded-full object-cover mx-auto mb-4"*/}
+              {/*/>*/}
+              <img
+                src="/team/herman.jpg"
+                srcSet="/team/herman.jpeg 2x, /team/herman.jpeg 3x"
+                alt="Team member"
+                className="w-auto h-32 rounded-full object-cover mx-auto mb-4"
               />
               <h3 className="text-xl font-poppins font-semibold mb-2">Development Team</h3>
               <p className="text-neutral-300">Building robust, scalable solutions</p>
@@ -227,9 +233,9 @@ const About = () => {
             <div className="text-center">
               <img 
                 // src="https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=400"
-                src="/team/peter.jpeg"
+                src="/team/peter.jpg"
                 alt="Team member" 
-                className="w-32 h-32 rounded-full object-cover mx-auto mb-4"
+                className="w-auto h-32 rounded-full object-cover mx-auto mb-4"
               />
               <h3 className="text-xl font-poppins font-semibold mb-2">Design Team</h3>
               <p className="text-neutral-300">Creating beautiful, user-friendly experiences</p>
