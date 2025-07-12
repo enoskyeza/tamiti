@@ -66,7 +66,8 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                // src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/about/about.webp"
                 alt="Our team working together" 
                 className="rounded-2xl shadow-2xl"
               />
@@ -116,7 +117,8 @@ const About = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img 
-                src="https://images.pexels.com/photos/3184319/pexels-photo-3184319.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                // src="https://images.pexels.com/photos/3184319/pexels-photo-3184319.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src="/about/about2.webp"
                 alt="Team brainstorming" 
                 className="rounded-xl shadow-lg"
               />
@@ -222,7 +224,7 @@ const About = () => {
               {/*  className="w-32 h-32 rounded-full object-cover mx-auto mb-4"*/}
               {/*/>*/}
               <img
-                src="/herman.jpg"
+                src="/team/herman.jpg"
                 alt="Team member"
                 className="w-auto h-32 rounded-full object-cover mx-auto mb-4"
               />
@@ -232,7 +234,7 @@ const About = () => {
             <div className="text-center">
               <img 
                 // src="https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=400"
-                src="/peter.jpg"
+                src="/team/peter.jpg"
                 alt="Team member" 
                 className="w-auto h-32 rounded-full object-cover mx-auto mb-4"
               />
@@ -242,7 +244,7 @@ const About = () => {
             <div className="text-center">
               <img 
                 // src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
-                src={`/marena.jpg`}
+                src={`/team/marena.jpg`}
                 alt="Team member"
                 className="w-32 h-32 rounded-full object-cover mx-auto mb-4"
               />
