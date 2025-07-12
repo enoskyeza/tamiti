@@ -222,8 +222,7 @@ const About = () => {
               {/*  className="w-32 h-32 rounded-full object-cover mx-auto mb-4"*/}
               {/*/>*/}
               <img
-                src="/team/herman.jpg"
-                srcSet="/team/herman.jpeg 2x, /team/herman.jpeg 3x"
+                src="/herman.jpg"
                 alt="Team member"
                 className="w-auto h-32 rounded-full object-cover mx-auto mb-4"
               />
@@ -233,7 +232,7 @@ const About = () => {
             <div className="text-center">
               <img 
                 // src="https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=400"
-                src="/team/peter.jpg"
+                src="/peter.jpg"
                 alt="Team member" 
                 className="w-auto h-32 rounded-full object-cover mx-auto mb-4"
               />
@@ -242,8 +241,9 @@ const About = () => {
             </div>
             <div className="text-center">
               <img 
-                src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
-                alt="Team member" 
+                // src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src={`/marena.jpg`}
+                alt="Team member"
                 className="w-32 h-32 rounded-full object-cover mx-auto mb-4"
               />
               <h3 className="text-xl font-poppins font-semibold mb-2">Strategy Team</h3>
